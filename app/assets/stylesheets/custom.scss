@@ -1,0 +1,23 @@
+@import 'bootstrap';
+
+body {
+
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #3a80f2 !important;
+  height: 40px;
+
+  .nav-link {
+    color: #fff !important;
+  }
+}
+
+footer {
+
+  .nav-link {
+    color: #241f63 !important;
+    font-weight: bold;
+  }
+}
