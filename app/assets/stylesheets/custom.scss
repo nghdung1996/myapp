@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background-color: #3a80f2 !important;
+  background-color: #2d98bf !important;
   height: 40px;
 
   .nav-link {
@@ -20,4 +20,11 @@ footer {
     color: #241f63 !important;
     font-weight: bold;
   }
+}
+
+.redirect-links {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 50px;
 }
