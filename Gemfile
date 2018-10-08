@@ -18,6 +18,7 @@ gem "bootstrap", "~> 4.1.3"
 gem "jquery-rails"
 gem "bootstrap-sass"
 gem "devise"
+gem "omniauth-facebook"
 
 
 group :development, :test do
