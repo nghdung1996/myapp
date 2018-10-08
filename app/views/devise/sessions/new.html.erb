@@ -6,7 +6,7 @@
         <%= form_for(resource, as: resource_name,
           url: session_path(resource_name),
           html:{class: "login-form"}) do |f| %>
-
+          <%= render "shared/devisemes", {resource: resource} %>
           <div class="form-group">
             <%= f.label :email %>
             <%= f.email_field :email, autocomplete: "email",
